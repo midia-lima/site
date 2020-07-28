@@ -1,4 +1,33 @@
-/* -- ======= Início das Organizadoras ======= -- */
+/* ínicio do cabeçalho */
+.bg-dark{
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    transition: 750ms ease;
+    background: #cd1e78cc !important;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+.nav-link:hover {
+    color:#696969 !important;
+   
+}
+/* fim do cabeçalho */
+
+h2, p {
+    font-family: "Roboto", sans-serif;
+    color: #4f4f8f;   
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+/* Início das Organizadoras */
 .team {
     background: #fff;
     padding: 60px 0;
@@ -43,7 +72,6 @@
     font-size: 13px;
     color: #fff;
 }
-
   
 .team .member .social {
     position: absolute;
@@ -63,7 +91,7 @@
 }
   
 .team .member .social a:hover {
-    color: #8a2be2;
+    color: #4f4f8f;
 }
   
 .team .member .social i {
@@ -90,6 +118,71 @@
     text-align: center;
     padding-bottom: 30px;
 }
-/* -- ======= Fim das Organizadoras ======= -- */
+/* Fim das Organizadoras */
 
+/* Imagem Fundo */
+#teste{
+    width: 100%;
+    height: 470px;
+}
+/* Imagem Fundo */
 
+/* ínicio do rodapé */
+.footer_cg{
+    background-color: #cd1e78;    
+}
+
+.icon_redes{
+    padding: 0.5rem;
+    text-align: left;    
+}
+
+.icones_redes_cg{
+    float: left;
+}
+
+.email_cg{
+    float: right;
+    font-size: 120%;
+    color: #ffffff;
+}
+
+.email_cg{
+    float: right;
+    font-size: 120%;    
+}
+
+a {
+    color: #ffffff;
+}
+/* fim do rodapé */
+
+/* ajuste para desktop */
+@media only screen and (min-width: 769px){
+    .navbar {
+        background-color: #4848784d;
+    }
+
+    body, html {
+        width: 100%;
+        height: 100%;       
+    }
+    
+    .Nav_logo_img{
+        width: 3rem;
+    }
+    
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    } 
+ 
+    .img_cloud {
+        margin-top: 25%;
+        width: 35%;
+    }
+
+    .footer_cg{
+        margin-top: -10px;
+    } 
+}
