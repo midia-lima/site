@@ -1,0 +1,112 @@
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color: #f5f2fc;
+    
+}
+
+h1 {
+   font-weight: bold; 
+}
+
+h2 {
+    font-weight: bold; 
+ }
+
+ .bg-dark{
+    background: rgba(205,30,120) !important;
+}
+
+.bg-dark.scrolled {
+    transition: 750ms ease;
+    background: rgba(205,30,120,0.8) !important;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.nav-link:hover {
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 991px) {
+
+    #nav-container .navbar{
+        padding: 0;
+    }
+    
+    .nav-link {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        padding: 4px;
+    }
+    
+
+}   
+
+.titulo{
+    margin-top: 90px;
+}
+
+.footer_cg{
+    background-color: #cd1e78;
+}
+
+.icon_redes{
+    padding: 0.5rem;
+    text-align: left;
+    
+}
+
+.icones_redes_cg{
+    float: left;
+}
+
+.conduta {
+    
+    font-size: 19px
+}
+
+.email_cg{
+    float: right;
+    font-size: 14px;
+    text-decoration: none;
+   
+}
+
+a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.designer {
+    color: #fff;
+}
+
+.designer-c {
+   color: #fff;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.email_cg{
+    float: right;
+    font-size: 120%;
+    text-decoration: none;
+    
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}

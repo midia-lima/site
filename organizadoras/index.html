@@ -12,16 +12,14 @@
   <title>Cloud Girls</title>
 </head>
 
-
-
 <body>
 
   <!-- Ínicio do Cabeçalho -->
-  <header>
+  <header id="header" class="fixed-top ">
     <div class="container" id="nav-container">
       <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-          <img src="../image/logo.png" width="55" height="55" class="d-inline-block">
+          <img src="./img/logo.png" width="55" height="55" class="d-inline-block">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite"
           aria-controls="navbarsite" aria-expanded="false" aria-label="toggle navigation">
@@ -37,7 +35,7 @@
               <a class="nav-link active" href="../sobre/index.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Organizadoras<span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="../organizadoras/index.html">Organizadoras<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="../eventos/index.html">Eventos</a>
@@ -55,25 +53,32 @@
         </div>
       </nav>
     </div>
-    <img src="./img/organizadoras.jpg" alt="" id="teste">
   </header>
   <!-- Fim do Cabeçalho -->
+
+  <!-- banner -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-8 mt-5 section-title">
+          <h2>Organizadoras</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner -->
 
   <!-- Início das Organizadoras -->
   <section id="team" class="team">
 
     <div class="container">
       <div class="section-title">
-        <h2>ORGANIZADORAS</h2>
-        <p>As organizadoras do Cloud Girls, são mulheres
+        <p class="text-org">As organizadoras do Cloud Girls, são mulheres
           que dedicam o seu tempo voluntariamente
           para apoiarem outras mulheres.
         </p>
       </div>
 
-      <div class="section-title mt-5">
-        <p>Organizadoras de Belo Horizonte</p>
-      </div>
       <div class="row justify-content-md-center">
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="member">
@@ -92,27 +97,6 @@
 
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="member">
-            <img src="./img/raquel-faria.jpg" class="img-fluid" alt="Organizadora Raquel Faria">
-            <div class="member-info">
-              <div class="member-info-content">
-                <h4>Raquel Faria</h4>
-                <span>Organizadora de Belo Horizonte</span>
-              </div>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/raquel-faria-b02b96188/" target="_blank">
-                  <i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section-title mt-5">
-        <p>Organizadoras de Campinas</p>
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="member">
             <img src="./img/andressa-concentine.png" class="img-fluid" alt="Organizadora Andressa Concentine">
             <div class="member-info">
               <div class="member-info-content">
@@ -123,6 +107,22 @@
                 <a href="https://www.linkedin.com/in/andressaconcentine/" target="_blank"><i
                     class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/andescd" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="member">
+            <img src="./img/barbara-bego.png" class="img-fluid" alt="Organizadora Barbara Mazioli">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Barbara Mazioli</h4>
+                <span>Organizadora do Espírito Santo</span>
+              </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/barbara-mazioli-621a5565/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
@@ -144,38 +144,19 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="member">
-            <img src="./img/valeria-cristina.png" class="img-fluid" alt="Organizadora Valéria Cristina">
-            <div class="member-info">
-              <div class="member-info-content">
-                <h4>Valéria Cristina Silva</h4>
-                <span>Organizadora de Campinas</span>
-              </div>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/valeria-cristina/" target="_blank"><i
-                    class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/vvalcristina" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
-      <div class="section-title mt-5">
-        <p>Organizadoras de Recife</p>
-      </div>
       <div class="row justify-content-md-center">
-        <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
           <div class="member">
-            <img src="./img/priscilla-serapiao.jpg" class="img-fluid" alt="Organizadora Priscilla Isis">
+            <img src="./img/elenice-alves.jpeg" class="img-fluid" alt="Organizadora Elenice Alves">
             <div class="member-info">
               <div class="member-info-content">
-                <h4>Priscilla Serapião</h4>
-                <span>Organizadora de Recife</span>
+                <h4>Elenice Alves</h4>
+                <span>Organizadora do Rio de Janeiro</span>
               </div>
               <div class="social">
-                <a href="https://www.linkedin.com/in/priscillaserapiao/" target="_blank">
+                <a href="https://www.linkedin.com/in/elenice-alves/" target="_blank">
                   <i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
@@ -184,40 +165,36 @@
 
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="member">
-            <img src="./img/sharon-falcao.jpg" class="img-fluid" alt="Organizadora Sharon Leila">
+            <img src="./img/fabiana-bacon.jpeg" class="img-fluid" alt="Organizadora Fabiana Bacon">
             <div class="member-info">
               <div class="member-info-content">
-                <h4>Sharon Falcão</h4>
-                <span>Organizadora de Recife</span>
+                <h4>Fabiana Bacon</h4>
+                <span>Organizadora do Rio de Janeiro</span>
               </div>
               <div class="social">
-                <a href="https://www.linkedin.com/in/sharon-falcao-060ab89/" target="_blank"><i
-                    class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="member">
-            <img src="./img/virginia-lucia.png" class="img-fluid" alt="Organizadora Virginia Lúcia">
-            <div class="member-info">
-              <div class="member-info-content">
-                <h4>Virginia Lúcia</h4>
-                <span>Organizadora de Recife</span>
-              </div>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/virginia-l%C3%BAcia-souza-monteiro-07a14a67/" target="_blank">
+                <a href="https://www.linkedin.com/in/fabianabacon/" target="_blank">
                   <i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="section-title mt-5">
-        <p>Organizadoras de São Paulo</p>
-      </div>
-      <div class="row justify-content-md-center">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="member">
+            <img src="./img/giselle-coslop.png" class="img-fluid" alt="Organizadora Giselle Coslop">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Giselle Coslop</h4>
+                <span>Organizadora do Espírito Santo</span>
+              </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/giselle-coslop-da-costa-9a0700b4/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
           <div class="member">
             <img src="./img/heloisa-carbone.png" class="img-fluid" alt="Organizadora Heloisa Carbone">
@@ -234,7 +211,9 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="row justify-content-md-center">
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="member">
             <img src="./img/jackeline-gomes.png" class="img-fluid" alt="Organizadora Jackeline Gomes">
@@ -284,43 +263,6 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="section-title mt-5">
-        <p>Organizadoras do Espírito Santo</p>
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="member">
-            <img src="./img/barbara-bego.png" class="img-fluid" alt="Organizadora Barbara Mazioli">
-            <div class="member-info">
-              <div class="member-info-content">
-                <h4>Barbara Mazioli</h4>
-                <span>Organizadora do Espírito Santo</span>
-              </div>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/barbara-mazioli-621a5565/" target="_blank"><i
-                    class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="member">
-            <img src="./img/giselle-coslop.png" class="img-fluid" alt="Organizadora Giselle Coslop">
-            <div class="member-info">
-              <div class="member-info-content">
-                <h4>Giselle Coslop</h4>
-                <span>Organizadora do Espírito Santo</span>
-              </div>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/giselle-coslop-da-costa-9a0700b4/" target="_blank"><i
-                    class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
           <div class="member">
@@ -339,42 +281,7 @@
         </div>
       </div>
 
-      <div class="section-title mt-5">
-        <p>Organizadoras do Rio de Janeiro</p>
-      </div>
       <div class="row justify-content-md-center">
-        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
-          <div class="member">
-            <img src="./img/elenice-alves.jpeg" class="img-fluid" alt="Organizadora Elenice Alves">
-            <div class="member-info">
-              <div class="member-info-content">
-                <h4>Elenice Alves</h4>
-                <span>Organizadora do Rio de Janeiro</span>
-              </div>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/elenice-alves/" target="_blank">
-                  <i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6">
-          <div class="member">
-            <img src="./img/fabiana-bacon.jpeg" class="img-fluid" alt="Organizadora Fabiana Bacon">
-            <div class="member-info">
-              <div class="member-info-content">
-                <h4>Fabiana Bacon</h4>
-                <span>Organizadora do Rio de Janeiro</span>
-              </div>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/fabianabacon/" target="_blank">
-                  <i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
           <div class="member">
             <img src="./img/mirian-montezi.jpg" class="img-fluid" alt="Organizadora Mirian Montezi">
@@ -391,6 +298,73 @@
             </div>
           </div>
         </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="member">
+            <img src="./img/raquel-faria.jpg" class="img-fluid" alt="Organizadora Raquel Faria">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Raquel Faria</h4>
+                <span>Organizadora de Belo Horizonte</span>
+              </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/raquel-faria-b02b96188/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="member">
+            <img src="./img/sharon-falcao.jpg" class="img-fluid" alt="Organizadora Sharon Leila">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Sharon Falcão</h4>
+                <span>Organizadora de Recife</span>
+              </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/sharon-falcao-060ab89/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="member">
+            <img src="./img/valeria-cristina.png" class="img-fluid" alt="Organizadora Valéria Cristina">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Valéria Cristina Silva</h4>
+                <span>Organizadora de Campinas</span>
+              </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/valeria-cristina/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/vvalcristina" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="member">
+            <img src="./img/virginia-lucia.png" class="img-fluid" alt="Organizadora Virginia Lúcia">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Virginia Lúcia</h4>
+                <span>Organizadora de Recife</span>
+              </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/virginia-l%C3%BAcia-souza-monteiro-07a14a67/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -400,30 +374,33 @@
   <footer>
     <div class="footer_cg">
       <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="rede_socais my-5 mb-5 col-md">
+        <div class="row">
+          <div class="rede_socais my-5 col-md">
             <div class="icones_redes_cg">
               <a class="redes_socias_cg" href="https://www.instagram.com/cloudgirlsin/?hl=pt-br" target="_blank">
-                <img class="icon_redes" src="./img/instagram.png" alt="Instagram">
+                <img class="icon_redes" src="../image/instagram.png" alt="Instagram">
               </a>
 
               <a class="redes_sociais_cg" href="https://www.facebook.com/cloudgirlsin/" target="_blank">
-                <img class="icon_redes" src="./img/facebook.png" alt="facebook">
+                <img class="icon_redes" src="../image/facebook.png" alt="facebook">
               </a>
 
               <a class="redes_sociais_cg" href="https://www.linkedin.com/company/cloudgirlsin/" target="_blank">
-                <img class="icon_redes" src="./img/linkedin.png" alt="linkedin">
+                <img class="icon_redes" src="../image/linkedin.png" alt="linkedin">
               </a>
             </div>
-            <div class="email_cg">
-              <a href="mailto:contato@cloudgirls.com.b?subjetc=Assunto" target="_blank">contato@cloudgirls.com.br</a>
+
+            <div class="designed">
+              <p class="designer-c my-2 text-center">Desenvolvido com dedicação pelas Mentees<a href="../desenvolvedoras/index.html">💜 (clique aqui)</a> <a class="email_cg" href="mailto:contato@cloudgirls.com.b?subjetc=Assunto">contato@cloudgirls.com.br</a></p>
             </div>
+            <div class="conduta my-4 text-left">
+              <a href="../conduta.html">Termo de conduta</a>
+            </div>  
           </div>
-        </div>
       </div>
     </div>
-    </div>
   </footer>
+
   <!-- Fim do Rodapé -->
 
 
@@ -445,10 +422,18 @@
   <!-- fim plugin de acessibilidade -->
 
   <!-- js para fazer a trasição de cor do navbar -->
-  <script>
-    $(window).scroll(function () {
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
+  
+  <script> 
+    $('.navbar-collapse').on('shown.bs.collapse', function() {
+      $('nav').toggleClass('scrolled', true)
+    });
 
+    $('.navbar-collapse').on('hidden.bs.collapse', function() {
+      $('nav').toggleClass('scrolled', false)
+    });    
+
+    $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 1)
     });
   </script>
 
